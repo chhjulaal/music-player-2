@@ -1,0 +1,338 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-image: url(musicbg.jpg);
+}
+.card {
+  position: relative;
+  top: 12vh;
+  width: 320px;
+  height: 461px;
+  background: #031641 !important;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.round {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-image: url(song.png);
+  position: relative;
+  top: 15%;
+  left: 70px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: 6px solid rgb(255, 255, 255);
+}
+
+/* .text-icon {
+  margin: 1px;
+} */
+
+.container .card .text-icon {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 40px;
+  cursor: pointer;
+}
+
+.audio {
+  position: relative;
+  top: 220px !important;
+  cursor: pointer;
+}
+
+#progress {
+  position: absolute;
+  top: 366px;
+  margin: auto 10px;
+  width: 300px;
+}
+.songDtailes {
+  position: absolute;
+  top: 289px;
+  left: 58px;
+  color: aliceblue;
+}
+
+.songDtailes h1 {
+  font-size: 20px;
+}
+/* .songDtailes p {
+  font-size: 13px;
+  position: relative;
+  left: 23px;
+} */
+
+.newHeart {
+  color: red;
+}
+.whiteHeart {
+  color: white;
+}
+
+.pushBtn {
+  display: none;
+}
+/* media query */
+
+#time {
+  position: relative;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: floralwhite;
+  top: 66vh;
+}
+
+@media screen and (min-width: 287px) and (max-width: 575px) {
+  body {
+    background-image: url(download.jfif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card {
+    height: auto;
+    background: transparent !important;
+  }
+  .round {
+    position: absolute;
+    margin: auto;
+    top: 5vh;
+  }
+  .container .card .text-icon {
+    position: relative;
+    top: 50vh !important;
+    cursor: pointer;
+  }
+
+  .audio {
+    position: relative;
+    top: 20px !important;
+    cursor: pointer;
+  }
+
+  #progress {
+    position: relative;
+    top: 65vh;
+    margin: auto;
+    width: 323px;
+  }
+  .container .card .mtext-icon {
+    position: relative;
+    width: -webkit-fill-available;
+    top: -39px !important;
+    margin: 10px auto;
+  }
+
+  .songDtailes {
+    position: absolute;
+    top: 40vh;
+    left: 63px;
+    color: aliceblue;
+  }
+  .songDtailes h1 {
+    font-size: 20px;
+  }
+  .songDtailes p {
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+  }
+
+  .newHeart {
+    color: red;
+  }
+  .whiteHeart {
+    color: white;
+  }
+
+  .pushBtn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 578px) and (max-width: 997px) {
+  body {
+    background-image: url(download.jfif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card {
+    height: auto;
+    background: transparent !important;
+  }
+  .round {
+    position: absolute;
+    margin: auto;
+    top: 5vh;
+  }
+  .container .card .text-icon {
+    position: relative;
+    top: 50vh !important;
+    cursor: pointer;
+  }
+
+  .audio {
+    position: relative;
+    top: 20px !important;
+    cursor: pointer;
+  }
+
+  #progress {
+    position: relative;
+    top: 65vh;
+    margin: auto;
+    width: 320px;
+  }
+  .container .card .mtext-icon {
+    position: relative;
+    width: -webkit-fill-available;
+    top: -39px !important;
+    margin: 10px auto;
+  }
+
+  .songDtailes {
+    position: absolute;
+    top: 40vh;
+    left: 63px;
+    color: aliceblue;
+  }
+  .songDtailes h1 {
+    font-size: 20px;
+  }
+  .songDtailes p {
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media screen and (min-width: 998px) and (max-width: 1400px) {
+  body {
+    background-image: url(download.jfif);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .card {
+    height: auto;
+    background: transparent !important;
+  }
+  .round {
+    position: absolute;
+    margin: auto;
+    top: 5vh;
+  }
+  .container .card .text-icon {
+    position: relative;
+    top: 50vh !important;
+    cursor: pointer;
+  }
+
+  .audio {
+    position: relative;
+    top: 20px !important;
+    cursor: pointer;
+  }
+
+  #progress {
+    position: relative;
+    top: 65vh;
+    margin: auto;
+    width: 310px;
+  }
+  .container .card .mtext-icon {
+    position: relative;
+    width: -webkit-fill-available;
+    top: -39px !important;
+    margin: 10px auto;
+  }
+
+  .songDtailes {
+    position: absolute;
+    top: 40vh;
+    left: 63px;
+    color: aliceblue;
+  }
+  .songDtailes h1 {
+    font-size: 20px;
+  }
+  .songDtailes p {
+    font-size: 13px;
+    position: relative;
+    left: 20px;
+  }
+}
+
+@media screen and (min-width: 1401px) and (max-width: 2200px) {
+  .card {
+    height: 80vh;
+    width: 60vh;
+
+    /* background: transparent !important; */
+  }
+  .round {
+    margin: auto;
+    width: 18vw;
+    height: 30vh;
+    top: 13vh;
+    left: 0vw;
+  }
+  .container .card .text-icon {
+    position: relative;
+    width: -webkit-fill-available;
+    top: 37vh !important;
+    margin: 10px auto;
+    font-size: x-large;
+  }
+  .container .card .mtext-icon {
+    position: relative;
+    width: -webkit-fill-available;
+    top: 50px !important;
+    margin: 10px auto;
+  }
+  #progress {
+    position: absolute;
+    top: 67vh;
+    margin: auto;
+    width: 100%;
+  }
+  .songDtailes p {
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+  }
+  .songDtailes {
+    position: absolute;
+    top: 56vh;
+    left: 6vw;
+  }
+  #time {
+    position: relative;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: floralwhite;
+    top: 29vh;
+  }
+}
